@@ -401,12 +401,11 @@ current_tool = 1
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1122189796]
 position = Vector2(2, -8)
 sprite_frames = SubResource("SpriteFrames_kxlma")
-animation = &"idle_front"
+animation = &"chopping_right"
 autoplay = "idle_front"
-frame_progress = 0.50178903
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=99456015]
-position = Vector2(2, -8)
+position = Vector2(-1, -8)
 shape = SubResource("CircleShape2D_s4se6")
 
 [node name="StateMachine" type="Node" parent="." unique_id=714535917 node_paths=PackedStringArray("initial_node_state")]
