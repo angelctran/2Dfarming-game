@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://drn3mwj08k2fi"]
+
+[ext_resource type="TileSet" uid="uid://dexoe8sp26jr6" path="res://Tilesets/house_tile_set.tres" id="1_xgc15"]
+
+[node name="LargeHouse" type="Node2D" unique_id=1787559257]
+
+[node name="HouseTilemap" type="Node2D" parent="." unique_id=875934368]
+
+[node name="Floor" type="TileMapLayer" parent="HouseTilemap" unique_id=907594012]
+tile_set = ExtResource("1_xgc15")
